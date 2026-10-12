@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "proposed_repository": "ZhijingWu/LATS-Execution-Reliability-Audit",
+  "scope": "Public working-tree files only; .git storage and private preparation work are excluded.",
+  "manifest_self_hash_note": "A manifest cannot contain its own SHA256. Its entry has sha256=null; its byte size is checked. Its external SHA256 is recorded in the local approval summary.",
+  "file_count": 22,
+  "total_bytes": 79826,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 63,
+      "sha256": "fc5d70ace6e0d30c3a8937ba5fbb5c92dcc9d4dd8ea0fa6c20d6860c0a95dfc9"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1244,
+      "sha256": "af5531dec3aa840ca372245cf5d90db690e22391642a23cb819b1b85a43bb67c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "0121853d00ac521befced98a16bd437a0fcb7f60faa46302bc934b4c8b553ecd"
+    },
+    {
+      "path": "PUBLICATION_ALLOWLIST.txt",
+      "bytes": 510,
+      "sha256": "aa7599e1ce1569af59371cfb0b555ca64356b100f0da25f7f52baf7ef1f0685e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10537,
+      "sha256": "dbfc591e67bea008255f4b7a33e626b05c2676b62424f28d95049f251801e56f"
+    },
+    {
+      "path": "audit_parsers/__init__.py",
+      "bytes": 77,
+      "sha256": "672102c9160d3ed67f867255966854c3666360699fb0fef946843d35313492e1"
+    },
+    {
+      "path": "audit_parsers/native.py",
+      "bytes": 1153,
+      "sha256": "2cf29850bb539bf5f23bcf7c7db4af4d0c9306f37455bded09b67e4889d4585a"
+    },
+    {
+      "path": "audit_parsers/strict.py",
+      "bytes": 2243,
+      "sha256": "82357e814c995cd7a64a486c17aca454ce247536ef2829a935e19fc141b978bc"
+    },
+    {
+      "path": "evidence/recorded_b3_score_summary.json",
+      "bytes": 4938,
+      "sha256": "e7f769a67e3b67d8aa75f10bca4532bdb5e2c64753f9e41e732067c916d1b1ee"
+    },
+    {
+      "path": "evidence/source_provenance.json",
+      "bytes": 10223,
+      "sha256": "e71e0bea11e2eeeece229389c67de01aa1fe750fd54b997053c01fad2a647c6a"
+    },
+    {
+      "path": "evidence/verified_findings.json",
+      "bytes": 1625,
+      "sha256": "1b5c51a7eafae75f57a303b18e1b2fd6008eef76dff0a870bee9dde889184c9e"
+    },
+    {
+      "path": "fixtures/synthetic_parser_cases.json",
+      "bytes": 18534,
+      "sha256": "e0e1e1e90ffeaa0eddaf83209f16b88d207781b0f9b03420bf4a25db0c4b7fc7"
+    },
+    {
+      "path": "license_and_attribution.md",
+      "bytes": 3521,
+      "sha256": "cb985f581620a58889fa6176a50b0e7e253fdbe374fcafcc55924041d29185b9"
+    },
+    {
+      "path": "licenses/LATS-MIT.txt",
+      "bytes": 1066,
+      "sha256": "cbe4f6d59f5cf6268eb318d1783496706504bb9577c771bd6ccccf93e4509f10"
+    },
+    {
+      "path": "licenses/WebShop-MIT.txt",
+      "bytes": 1094,
+      "sha256": "8872dbf8660b00890b5e07ce1ea1f7a44fa7ae4e1857da56caba172b51dab3cb"
+    },
+    {
+      "path": "publication_file_manifest.json",
+      "bytes": 3842,
+      "sha256": null
+    },
+    {
+      "path": "publication_review.md",
+      "bytes": 5604,
+      "sha256": "cfea6dd238ca597b891044654371195754124a8ec6d11ecee35c6117c04c18b7"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 3233,
+      "sha256": "31aaf64af5db0ee9e1d54f47f1368820eab795105d32d6f22094b52caed311b9"
+    },
+    {
+      "path": "reproducibility_test_report.md",
+      "bytes": 4048,
+      "sha256": "c713ce24bec24a27d3ebc4c65b8c1b509dca41da59db70673b078a28b50b0fcf"
+    },
+    {
+      "path": "security_review.md",
+      "bytes": 3772,
+      "sha256": "1f64afb1ec56cbcc1bc615e874461f15db8d2a23d704e0e7d1487e0745fe6770"
+    },
+    {
+      "path": "tests/test_parsers.py",
+      "bytes": 1413,
+      "sha256": "5211a2654e51fe6259fb27c8527b4cbc5b49e69da97485bb05541a39c79e852b"
+    }
+  ]
+}

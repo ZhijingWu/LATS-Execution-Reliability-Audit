@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Cite this independent audit for its diagnostic findings, and cite the original LATS paper for the method."
+title: "LATS Execution Reliability Audit"
+type: software
+version: "0.1.0"
+authors:
+  - family-names: Wu
+    given-names: Zhijing
+license: MIT
+abstract: "An independent bounded audit of action syntax, evaluator score completion, and numerical extraction in one recorded LATS/WebShop scenario. Public response fixtures are synthetic."
+keywords:
+  - LATS
+  - execution reliability
+  - numerical parsing
+references:
+  - type: conference-paper
+    title: "Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models"
+    authors:
+      - family-names: Zhou
+        given-names: Andy
+      - family-names: Yan
+        given-names: Kai
+      - family-names: Shlapentokh-Rothman
+        given-names: Michal
+      - family-names: Wang
+        given-names: Haohan
+      - family-names: Wang
+        given-names: Yu-Xiong
+    year: 2024
+    collection-title: "Proceedings of the 41st International Conference on Machine Learning"
+    journal: "Proceedings of Machine Learning Research"
+    volume: 235
+    start: 62138
+    end: 62160
+    url: "https://proceedings.mlr.press/v235/zhou24r.html"

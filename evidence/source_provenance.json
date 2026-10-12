@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-10-12",
+  "research_workspace_git_commit": null,
+  "research_workspace_git_note": "The original workspace has no available Git HEAD. Upstream commits are verified separately; research files are identified by SHA256, not an invented research commit.",
+  "upstream_files": [
+    {
+      "repository": "https://github.com/andyz245/LanguageAgentTreeSearch",
+      "commit": "853d81614607dd27433faf17c7b0a7d660f95d22",
+      "path": "LICENSE",
+      "sha256": "cbe4f6d59f5cf6268eb318d1783496706504bb9577c771bd6ccccf93e4509f10",
+      "verified_against_original": true,
+      "source_url": "https://raw.githubusercontent.com/andyz245/LanguageAgentTreeSearch/853d81614607dd27433faf17c7b0a7d660f95d22/LICENSE"
+    },
+    {
+      "repository": "https://github.com/andyz245/LanguageAgentTreeSearch",
+      "commit": "853d81614607dd27433faf17c7b0a7d660f95d22",
+      "path": "webshop/webshop.py",
+      "sha256": "fa582e8838557bc553f43e39c437655b7c0105c9e7b7de30fd27e5fda185d210",
+      "verified_against_original": true,
+      "source_url": "https://raw.githubusercontent.com/andyz245/LanguageAgentTreeSearch/853d81614607dd27433faf17c7b0a7d660f95d22/webshop/webshop.py"
+    },
+    {
+      "repository": "https://github.com/andyz245/LanguageAgentTreeSearch",
+      "commit": "853d81614607dd27433faf17c7b0a7d660f95d22",
+      "path": "webshop/lats.py",
+      "sha256": "8139c8bf9176201d893529125712a842465c2b80607f8f71e8cf9180e0786490",
+      "verified_against_original": true,
+      "source_url": "https://raw.githubusercontent.com/andyz245/LanguageAgentTreeSearch/853d81614607dd27433faf17c7b0a7d660f95d22/webshop/lats.py"
+    },
+    {
+      "repository": "https://github.com/andyz245/LanguageAgentTreeSearch",
+      "commit": "853d81614607dd27433faf17c7b0a7d660f95d22",
+      "path": "webshop/models.py",
+      "sha256": "1ba8cc51786c689e0e5a67be25d2a16551614bb2ad683110a6384dad26b331dd",
+      "verified_against_original": true,
+      "source_url": "https://raw.githubusercontent.com/andyz245/LanguageAgentTreeSearch/853d81614607dd27433faf17c7b0a7d660f95d22/webshop/models.py"
+    },
+    {
+      "repository": "https://github.com/andyz245/LanguageAgentTreeSearch",
+      "commit": "853d81614607dd27433faf17c7b0a7d660f95d22",
+      "path": "webshop/prompt.py",
+      "sha256": "ddf3255c3905b15e5994dc611f026da1505eadc6907e34cd52db542c2ad1c9d8",
+      "verified_against_original": true,
+      "source_url": "https://raw.githubusercontent.com/andyz245/LanguageAgentTreeSearch/853d81614607dd27433faf17c7b0a7d660f95d22/webshop/prompt.py"
+    },
+    {
+      "repository": "https://github.com/princeton-nlp/WebShop",
+      "commit": "64fa2a5c15c7daa698b9ac93f5bb5437b634c9bd",
+      "path": "LICENSE.md",
+      "sha256": "8872dbf8660b00890b5e07ce1ea1f7a44fa7ae4e1857da56caba172b51dab3cb",
+      "verified_against_original": true,
+      "source_url": "https://raw.githubusercontent.com/princeton-nlp/WebShop/64fa2a5c15c7daa698b9ac93f5bb5437b634c9bd/LICENSE.md"
+    }
+  ],
+  "original_evidence_files": [
+    {
+      "path": "results/stage_b1_fixed_0_api2d_baseline_report.md",
+      "bytes": 18855,
+      "sha256": "df620e0945ad0704a50a4bd760fc4f05b50d15011ae908fce6cd1aed068a13dc"
+    },
+    {
+      "path": "results/stage_b1_real_trace_failure_attribution.md",
+      "bytes": 39657,
+      "sha256": "f758e76c3470f031ec398e519bfa9025c64f90a4c2675dc88b46deb8d1ecb713"
+    },
+    {
+      "path": "results/stage_b2_action_format_probe_report.md",
+      "bytes": 22205,
+      "sha256": "8f97883c6a20f14d8dfb983b32574a424a70c20c37e82d980df36fb84d5c25a0"
+    },
+    {
+      "path": "results/stage_b3_evaluator_cap_probe_report.md",
+      "bytes": 21977,
+      "sha256": "8cd5b07731638d5413391be26058606cc7ff081cd4f3eb068c6243afc9bf3890"
+    },
+    {
+      "path": "results/stage_b4_parser_diagnostics.md",
+      "bytes": 17719,
+      "sha256": "3b8b4808d93c2632d067e955d978f12f84b1802deec7327bcb9faa2f24371c42"
+    },
+    {
+      "path": "results/stage_b4_claims_matrix.md",
+      "bytes": 9430,
+      "sha256": "57f8af9d9b53f4c5ff42c9e524599fbc3ef58f08a0b2972e4d2fcb5825bedc2c"
+    },
+    {
+      "path": "results/stage_b1_real_trace_attribution/classification_summary.json",
+      "bytes": 848,
+      "sha256": "f2119716d54f452c9eb2fdfc9a6ae801d3923f4022182aea126d60146ccc4067"
+    },
+    {
+      "path": "results/stage_b1_real_trace_attribution/all_32_evaluator_records.json",
+      "bytes": 36447,
+      "sha256": "823364c89533d1fcbecfb72b7baecf5593f3a0059f0d8210a17a401dd2f8364e"
+    },
+    {
+      "path": "results/stage_b1_real_trace_attribution/all_45_generation_records.json",
+      "bytes": 64499,
+      "sha256": "b71970234f652e998e498db291026efc30bef7d754b8293d5bb11969d8fce1fd"
+    },
+    {
+      "path": "results/stage_b1_fixed_0_api2d_v1/pilot_summary.json",
+      "bytes": 1643,
+      "sha256": "371ca6a7087a01355cc918b59f460fc1bb19e8ed81a99c6f0deb9b7b252900c1"
+    },
+    {
+      "path": "results/stage_b1_fixed_0_api2d_v1/task_0/events.jsonl",
+      "bytes": 676093,
+      "sha256": "faf828635d2949229e85c76d935003f68b9cf338d2498a018e155eb58621c69b"
+    },
+    {
+      "path": "results/stage_b2_action_format_probe_v1/analysis_summary.json",
+      "bytes": 7997,
+      "sha256": "90496cd0d6fe38109df5a6d1fbbd4dc5f222862acea4d6f5201747e35f6734bc"
+    },
+    {
+      "path": "results/stage_b2_action_format_probe_v1/measurements.json",
+      "bytes": 33543,
+      "sha256": "9b53ac3fe78be567de1903bbaca636c0f03aa22c55907f084c8eaf304af817ac"
+    },
+    {
+      "path": "results/stage_b2_action_format_probe_v1/events.jsonl",
+      "bytes": 77548,
+      "sha256": "a9ad2a09e36198fbb79a84a52d8fcddb285fcd18d86fc6d35dde2d1a7b84c146"
+    },
+    {
+      "path": "results/stage_b3_evaluator_cap_probe_v1/measurements.json",
+      "bytes": 33214,
+      "sha256": "6b3675bce5fb001a1ceee6c3c67d50d18f62487217d36ae29d2678131cfc5ebd"
+    },
+    {
+      "path": "results/stage_b3_evaluator_cap_probe_v1/events.jsonl",
+      "bytes": 130702,
+      "sha256": "2c808e38ae0133677a6a71007597b537fcfa5b0b71bf42f609593eee8e0ca7f7"
+    },
+    {
+      "path": "results/stage_b3_evaluator_cap_probe_v1/report_evidence/analysis_summary.json",
+      "bytes": 11386,
+      "sha256": "1543827510361757a753f22085d19aa584bb735a3ecc533dbcc37375182e0ef5"
+    },
+    {
+      "path": "results/stage_b3_evaluator_cap_probe_v1/report_evidence/payload_comparison.json",
+      "bytes": 2742,
+      "sha256": "f90f90c0ff7f531d98fd4dc3393e511a4ff0cce3815d8a5a1e9a0dac87c05366"
+    },
+    {
+      "path": "results/stage_b4_parser_tests.json",
+      "bytes": 75514,
+      "sha256": "f277f94d9087eddf85182fce3e040cf0aa1c3fa87a3cc171307159bce39483e5"
+    },
+    {
+      "path": "results/stage_b4_evidence/cpu_test_output.txt",
+      "bytes": 6042,
+      "sha256": "88690ed69e172087669200bbf4b913edcca0208a80f104a5e22c6964cb47319f"
+    },
+    {
+      "path": "results/stage_b4_evidence/final_verification.json",
+      "bytes": 1988,
+      "sha256": "cbac730bfe5ab3e8d5582dd75dab15162b86e576b4cdf4bfc8b5e0b931f8a703"
+    },
+    {
+      "path": "scripts/stage_b3_evaluator_cap/diagnostics.py",
+      "bytes": 4264,
+      "sha256": "d78414ae7f5f86c04128cd202b1db00d15e5379112291661d2e48896ed422c86"
+    },
+    {
+      "path": "scripts/stage_b4_parser/strict_parser.py",
+      "bytes": 2243,
+      "sha256": "82357e814c995cd7a64a486c17aca454ce247536ef2829a935e19fc141b978bc"
+    },
+    {
+      "path": "scripts/stage_b4_parser/run_offline.py",
+      "bytes": 13917,
+      "sha256": "989c316d48e60f27cb179d317590bc8e172b3cbf10ef7ca41c80af467d2ee7fd"
+    },
+    {
+      "path": "evidence/audit_bundle/sources/source_manifest.json",
+      "bytes": 16357,
+      "sha256": "a05112a2cf0c0edace3ba2f1ba0fde515014e016caaa3df4e752dfee66deee81"
+    },
+    {
+      "path": "evidence/audit_bundle/sources/lats/LICENSE",
+      "bytes": 1066,
+      "sha256": "cbe4f6d59f5cf6268eb318d1783496706504bb9577c771bd6ccccf93e4509f10"
+    },
+    {
+      "path": "evidence/audit_bundle/sources/lats/webshop/lats.py",
+      "bytes": 28413,
+      "sha256": "8139c8bf9176201d893529125712a842465c2b80607f8f71e8cf9180e0786490"
+    },
+    {
+      "path": "evidence/audit_bundle/sources/lats/webshop/prompt.py",
+      "bytes": 17973,
+      "sha256": "ddf3255c3905b15e5994dc611f026da1505eadc6907e34cd52db542c2ad1c9d8"
+    },
+    {
+      "path": "evidence/audit_bundle/sources/lats/webshop/models.py",
+      "bytes": 2994,
+      "sha256": "1ba8cc51786c689e0e5a67be25d2a16551614bb2ad683110a6384dad26b331dd"
+    },
+    {
+      "path": "evidence/audit_bundle/sources/webshop/LICENSE.md",
+      "bytes": 1094,
+      "sha256": "8872dbf8660b00890b5e07ce1ea1f7a44fa7ae4e1857da56caba172b51dab3cb"
+    },
+    {
+      "path": "evidence/audit_bundle/runtime/webshop_code/source_manifest.json",
+      "bytes": 5059,
+      "sha256": "fd7c8b12342fc5d99adc6f9c3f8aa9c5d8e44f8f34ca8cecc610d69fc568b9b4"
+    },
+    {
+      "path": "configs/single_task_fixed_0_api2d_scu.json",
+      "bytes": 2661,
+      "sha256": "a316415b4b2dd1b6072bceb828895cecf24b16adc221487abff03272d5bafdbf"
+    },
+    {
+      "path": "configs/stage_b2_action_format_probe_v1.json",
+      "bytes": 3116,
+      "sha256": "62e78b3e5a0927016d0ad1c472fc74f1b7de6fec9b4924be886709f645ad257b"
+    },
+    {
+      "path": "configs/stage_b3_evaluator_cap_probe_v1.json",
+      "bytes": 3352,
+      "sha256": "93dffd2087ae0597c12626b58f90e997d2894a412f02c80a5540ec08afe9d3ae"
+    },
+    {
+      "path": "evidence/audit_bundle/sources/lats/webshop/webshop.py",
+      "bytes": 7806,
+      "sha256": "fa582e8838557bc553f43e39c437655b7c0105c9e7b7de30fd27e5fda185d210"
+    },
+    {
+      "path": "results/stage_b4_evidence/preexisting_hashes.json",
+      "bytes": 181487,
+      "sha256": "3e56bcd146e44da3326185799ce8389b4ad7fbe0c75319375f72e9e29fd249c1"
+    }
+  ],
+  "preservation": {
+    "collected_files_unchanged": 36,
+    "original_B4_preservation_check_files": 1071,
+    "original_B4_verify_only_checks_passed": 81,
+    "new_paid_inference": 0,
+    "new_environment_episodes": 0
+  },
+  "note": "Original file paths are relative to the private research workspace. These files are provenance references, not public download paths. SHA256 identifies bytes but does not make withheld data independently reproducible."
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "evidence_kind": "verified_recorded_aggregate_metadata",
+  "verified_on": "2026-10-12",
+  "B1": {
+    "settled_requests": 40,
+    "generation_outputs": 45,
+    "invalid_actions": 35,
+    "evaluator_outputs": 32,
+    "complete_evaluator_scores": 0,
+    "successful_purchase": false,
+    "stop_reason": "budget_exhausted:model_requests",
+    "environment_episodes": 1
+  },
+  "B2": {
+    "settled_requests": 6,
+    "requests_per_condition": 3,
+    "completions_per_request": 5,
+    "A_outputs": 15,
+    "A_syntax_compliant": 0,
+    "B_outputs": 15,
+    "B_syntax_compliant": 15,
+    "B_think_commands": 15,
+    "navigation_commands": 0,
+    "environment_episodes": 0
+  },
+  "B3": {
+    "settled_requests": 12,
+    "prompts": 3,
+    "repetitions_per_prompt_per_condition": 2,
+    "A_cap": 100,
+    "A_outputs": 6,
+    "A_complete_scores": 0,
+    "B_cap": 300,
+    "B_outputs": 6,
+    "B_complete_scores": 6,
+    "native_agrees_with_explicit": 3,
+    "native_mismatch_ordinals": [
+      4,
+      6,
+      8
+    ],
+    "environment_episodes": 0
+  },
+  "B4": {
+    "historical_checks": 81,
+    "synthetic_checks": 64,
+    "real_response_comparisons": 12,
+    "synthesis_and_boundary_checks": 5,
+    "historical_status": "PASS",
+    "publication_private_recheck": "81/81 PASS",
+    "diagnostic_complete_score_agreement": "6/6",
+    "diagnostic_scoreless_abstention": "6/6",
+    "new_model_inference": 0,
+    "environment_episodes": 0
+  },
+  "unestablished": [
+    "child/value alignment exposure",
+    "task-success improvement",
+    "benchmark-wide failure rates",
+    "evaluator judgment accuracy"
+  ]
+}

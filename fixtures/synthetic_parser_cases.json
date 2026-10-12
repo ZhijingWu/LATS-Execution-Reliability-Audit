@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "evidence_kind": "synthetic_unit_tests",
+  "notice": "Every text is synthetic. These cases illustrate source behavior and do not independently reproduce the original real-model observations.",
+  "origin": "64 synthetic cases from the preserved B4 CPU check record; only fixed inputs and expectations redistributed.",
+  "cases": [
+    {
+      "id": "score_1",
+      "group": "scores_1_to_10",
+      "synthetic": true,
+      "text": "Reflection: Relevant partial trajectory.\nThus the correctness score is 1",
+      "expected_score": 1,
+      "expected_native_value": 0.1,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "price_50_score_1",
+      "group": "price_constraints",
+      "synthetic": true,
+      "text": "Reflection: Price lower than $50.\nThus the correctness score is 1",
+      "expected_score": 1,
+      "expected_native_value": 0.5,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "score_2",
+      "group": "scores_1_to_10",
+      "synthetic": true,
+      "text": "Reflection: Relevant partial trajectory.\nThus the correctness score is 2",
+      "expected_score": 2,
+      "expected_native_value": 0.2,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "price_50_score_2",
+      "group": "price_constraints",
+      "synthetic": true,
+      "text": "Reflection: Price lower than $50.\nThus the correctness score is 2",
+      "expected_score": 2,
+      "expected_native_value": 0.5,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "score_3",
+      "group": "scores_1_to_10",
+      "synthetic": true,
+      "text": "Reflection: Relevant partial trajectory.\nThus the correctness score is 3",
+      "expected_score": 3,
+      "expected_native_value": 0.3,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "price_50_score_3",
+      "group": "price_constraints",
+      "synthetic": true,
+      "text": "Reflection: Price lower than $50.\nThus the correctness score is 3",
+      "expected_score": 3,
+      "expected_native_value": 0.5,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "score_4",
+      "group": "scores_1_to_10",
+      "synthetic": true,
+      "text": "Reflection: Relevant partial trajectory.\nThus the correctness score is 4",
+      "expected_score": 4,
+      "expected_native_value": 0.4,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "price_50_score_4",
+      "group": "price_constraints",
+      "synthetic": true,
+      "text": "Reflection: Price lower than $50.\nThus the correctness score is 4",
+      "expected_score": 4,
+      "expected_native_value": 0.5,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "score_5",
+      "group": "scores_1_to_10",
+      "synthetic": true,
+      "text": "Reflection: Relevant partial trajectory.\nThus the correctness score is 5",
+      "expected_score": 5,
+      "expected_native_value": 0.5,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "price_50_score_5",
+      "group": "price_constraints",
+      "synthetic": true,
+      "text": "Reflection: Price lower than $50.\nThus the correctness score is 5",
+      "expected_score": 5,
+      "expected_native_value": 0.5,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "score_6",
+      "group": "scores_1_to_10",
+      "synthetic": true,
+      "text": "Reflection: Relevant partial trajectory.\nThus the correctness score is 6",
+      "expected_score": 6,
+      "expected_native_value": 0.6,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "price_50_score_6",
+      "group": "price_constraints",
+      "synthetic": true,
+      "text": "Reflection: Price lower than $50.\nThus the correctness score is 6",
+      "expected_score": 6,
+      "expected_native_value": 0.6,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "score_7",
+      "group": "scores_1_to_10",
+      "synthetic": true,
+      "text": "Reflection: Relevant partial trajectory.\nThus the correctness score is 7",
+      "expected_score": 7,
+      "expected_native_value": 0.7,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "price_50_score_7",
+      "group": "price_constraints",
+      "synthetic": true,
+      "text": "Reflection: Price lower than $50.\nThus the correctness score is 7",
+      "expected_score": 7,
+      "expected_native_value": 0.7,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "score_8",
+      "group": "scores_1_to_10",
+      "synthetic": true,
+      "text": "Reflection: Relevant partial trajectory.\nThus the correctness score is 8",
+      "expected_score": 8,
+      "expected_native_value": 0.8,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "price_50_score_8",
+      "group": "price_constraints",
+      "synthetic": true,
+      "text": "Reflection: Price lower than $50.\nThus the correctness score is 8",
+      "expected_score": 8,
+      "expected_native_value": 0.8,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "score_9",
+      "group": "scores_1_to_10",
+      "synthetic": true,
+      "text": "Reflection: Relevant partial trajectory.\nThus the correctness score is 9",
+      "expected_score": 9,
+      "expected_native_value": 0.9,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "price_50_score_9",
+      "group": "price_constraints",
+      "synthetic": true,
+      "text": "Reflection: Price lower than $50.\nThus the correctness score is 9",
+      "expected_score": 9,
+      "expected_native_value": 0.9,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "score_10",
+      "group": "scores_1_to_10",
+      "synthetic": true,
+      "text": "Reflection: Relevant partial trajectory.\nThus the correctness score is 10",
+      "expected_score": 10,
+      "expected_native_value": 1.0,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "price_50_score_10",
+      "group": "price_constraints",
+      "synthetic": true,
+      "text": "Reflection: Price lower than $50.\nThus the correctness score is 10",
+      "expected_score": 10,
+      "expected_native_value": 1.0,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "asin_digit_9",
+      "group": "incidental_numbers",
+      "synthetic": true,
+      "text": "Reflection: Product B09MW563KN matches.\nThus the correctness score is 3",
+      "expected_score": 3,
+      "expected_native_value": 0.9,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "asin_substring_10",
+      "group": "incidental_numbers",
+      "synthetic": true,
+      "text": "Reflection: Product B10AAAAAAA matches.\nThus the correctness score is 3",
+      "expected_score": 3,
+      "expected_native_value": 1.0,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "multiple_counts",
+      "group": "incidental_numbers",
+      "synthetic": true,
+      "text": "Reflection: 10 candidates, 9 reviews and 8 attributes.\nThus the correctness score is 2",
+      "expected_score": 2,
+      "expected_native_value": 1.0,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "prose_digit_9",
+      "group": "incidental_numbers",
+      "synthetic": true,
+      "text": "Reflection: Compared 9 products across 3 criteria.\nThus the correctness score is 2",
+      "expected_score": 2,
+      "expected_native_value": 0.9,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "price_decimal",
+      "group": "incidental_numbers",
+      "synthetic": true,
+      "text": "Reflection: Costs $19.99.\nThus the correctness score is 4",
+      "expected_score": 4,
+      "expected_native_value": 0.9,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "multiple_prices",
+      "group": "incidental_numbers",
+      "synthetic": true,
+      "text": "Reflection: Limit $50; price $5.\nThus the correctness score is 3",
+      "expected_score": 3,
+      "expected_native_value": 0.5,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "zero_price",
+      "group": "incidental_numbers",
+      "synthetic": true,
+      "text": "Reflection: Price $0.\nThus the correctness score is 2",
+      "expected_score": 2,
+      "expected_native_value": 0.2,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "lower_incidental_digit",
+      "group": "incidental_numbers",
+      "synthetic": true,
+      "text": "Reflection: Found 1 item.\nThus the correctness score is 9",
+      "expected_score": 9,
+      "expected_native_value": 0.9,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "trailing_period",
+      "group": "accepted_contract_variants",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3.",
+      "expected_score": 3,
+      "expected_native_value": 0.3,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "ascii_whitespace",
+      "group": "accepted_contract_variants",
+      "synthetic": true,
+      "text": " \tThus  the correctness\tscore is 3\t ",
+      "expected_score": 3,
+      "expected_native_value": 0.3,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "case_insensitive",
+      "group": "accepted_contract_variants",
+      "synthetic": true,
+      "text": "THUS THE CORRECTNESS SCORE IS 3",
+      "expected_score": 3,
+      "expected_native_value": 0.3,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "trailing_blank_lines",
+      "group": "accepted_contract_variants",
+      "synthetic": true,
+      "text": "Reflection: Relevant.\nThus the correctness score is 3\n \n",
+      "expected_score": 3,
+      "expected_native_value": 0.3,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "crlf",
+      "group": "accepted_contract_variants",
+      "synthetic": true,
+      "text": "Reflection: Relevant.\r\nThus the correctness score is 3\r\n",
+      "expected_score": 3,
+      "expected_native_value": 0.3,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "same_score_repeated",
+      "group": "accepted_contract_variants",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3\nThus the correctness score is 3",
+      "expected_score": 3,
+      "expected_native_value": 0.3,
+      "expected_status": "accepted"
+    },
+    {
+      "id": "empty",
+      "group": "missing_nonfinal_conflicting",
+      "synthetic": true,
+      "text": "",
+      "expected_score": null,
+      "expected_native_value": -1,
+      "expected_status": "missing_final_score"
+    },
+    {
+      "id": "reflection_only",
+      "group": "missing_nonfinal_conflicting",
+      "synthetic": true,
+      "text": "Reflection: An incomplete attempt.",
+      "expected_score": null,
+      "expected_native_value": -1,
+      "expected_status": "missing_final_score"
+    },
+    {
+      "id": "price_without_score",
+      "group": "missing_nonfinal_conflicting",
+      "synthetic": true,
+      "text": "Reflection: Price lower than $50.",
+      "expected_score": null,
+      "expected_native_value": 0.5,
+      "expected_status": "missing_final_score"
+    },
+    {
+      "id": "identifier_without_score",
+      "group": "missing_nonfinal_conflicting",
+      "synthetic": true,
+      "text": "Reflection: Product B09MW563KN.",
+      "expected_score": null,
+      "expected_native_value": 0.9,
+      "expected_status": "missing_final_score"
+    },
+    {
+      "id": "nonfinal_valid_score",
+      "group": "missing_nonfinal_conflicting",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3\nMore reflection follows.",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "nonfinal_score_only"
+    },
+    {
+      "id": "different_valid_scores",
+      "group": "missing_nonfinal_conflicting",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3\nThus the correctness score is 4",
+      "expected_score": null,
+      "expected_native_value": 0.4,
+      "expected_status": "conflicting_scores"
+    },
+    {
+      "id": "prior_inline_label",
+      "group": "missing_nonfinal_conflicting",
+      "synthetic": true,
+      "text": "Reflection: correctness score is 9\nThus the correctness score is 3",
+      "expected_score": null,
+      "expected_native_value": 0.9,
+      "expected_status": "conflicting_scores"
+    },
+    {
+      "id": "prior_ten_conflict",
+      "group": "missing_nonfinal_conflicting",
+      "synthetic": true,
+      "text": "Thus the correctness score is 10\nThus the correctness score is 2",
+      "expected_score": null,
+      "expected_native_value": 1.0,
+      "expected_status": "conflicting_scores"
+    },
+    {
+      "id": "zero",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 0",
+      "expected_score": null,
+      "expected_native_value": -1,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "eleven",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 11",
+      "expected_score": null,
+      "expected_native_value": 0.1,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "twenty",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 20",
+      "expected_score": null,
+      "expected_native_value": 0.2,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "negative",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is -3",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "positive_sign",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is +3",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "decimal",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3.5",
+      "expected_score": null,
+      "expected_native_value": 0.5,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "integer_decimal",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3.0",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "fraction",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3/10",
+      "expected_score": null,
+      "expected_native_value": 1.0,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "leading_zero",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 03",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "word",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is three",
+      "expected_score": null,
+      "expected_native_value": -1,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "unicode_digit",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is ３",
+      "expected_score": null,
+      "expected_native_value": -1,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "number_plus_word",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3points",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "missing_integer",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is",
+      "expected_score": null,
+      "expected_native_value": -1,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "colon_label",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score: 3",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "missing_thus",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "The correctness score is 3",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "generic_score_label",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Score: 3",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "missing_final_score"
+    },
+    {
+      "id": "trailing_explanation",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3 because it is partial.",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "two_scores_one_line",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3; Thus the correctness score is 4",
+      "expected_score": null,
+      "expected_native_value": 0.4,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "markdown",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "**Thus the correctness score is 3**",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "quoted",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "\"Thus the correctness score is 3\"",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "incomplete_statement",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3 or",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    },
+    {
+      "id": "double_period",
+      "group": "malformed_final_scores",
+      "synthetic": true,
+      "text": "Thus the correctness score is 3..",
+      "expected_score": null,
+      "expected_native_value": 0.3,
+      "expected_status": "malformed_final_statement"
+    }
+  ]
+}
